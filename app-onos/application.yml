@@ -6,13 +6,13 @@ server:
 # eureka client
 eureka:
   client:
-    eureka-server-d-n-s-name: 172.18.9.201
+    eureka-server-d-n-s-name: 172.18.9.202
     eureka-server-port: 8899
     service-url:
       defaultZone: http://${eureka.client.eureka-server-d-n-s-name}:${eureka.client.eureka-server-port}/eureka/
 # logging
 logging:
-  file: logs/app.log
+  file: logs/app1.log
   file.max-size: 100MB
   level:
     root: info
