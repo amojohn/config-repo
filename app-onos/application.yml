@@ -13,9 +13,8 @@ eureka:
 # logging
 logging:
   file: logs/app1.log
-  file.max-size: 100MB
   level:
     root: info
   pattern:
     dateformat: yyyy-MM-dd HH:mm:ss.SSS
-    level: %5p
+    level: '%5p'
