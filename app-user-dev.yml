@@ -1,8 +1,4 @@
-server:
-  port: 8080
 spring:
-  application:
-    name: app-user
   datasource:
     name: mysql-datasource
     type: org.apache.commons.dbcp2.BasicDataSource
@@ -14,7 +10,7 @@ spring:
       config:
         profile: dev
     
-    #spring.mvc.static-path-pattern=/static/**
+#spring.mvc.static-path-pattern=/static/**
 # mybatis
 mybatis:
   mapper-locations: classpath:mapping/*.xml
