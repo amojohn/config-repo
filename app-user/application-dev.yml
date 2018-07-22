@@ -16,7 +16,7 @@ mybatis:
 logging:
   file: logs/${spring.application.name}.log
   level:
-    root: debug
+    root: info
   pattern:
     dateformat: yyyy-MM-dd HH:mm:ss.SSS
     level: '%5p'
