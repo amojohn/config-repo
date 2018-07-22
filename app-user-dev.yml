@@ -6,23 +6,3 @@ spring:
     url: jdbc:mysql://localhost:3306/shersfy?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: 123456
-  cloud:
-      config:
-        profile: dev
-    
-#spring.mvc.static-path-pattern=/static/**
-# mybatis
-mybatis:
-  mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: org.shersfy.user.model
-  
-
-# logging
-logging:
-  file: logs/${spring.application.name}.log
-  file.max-size: 100MB
-  level:
-    root: info
-  pattern:
-    dateformat: yyyy-MM-dd HH:mm:ss.SSS
-    level: '%5p'
