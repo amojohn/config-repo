@@ -21,7 +21,6 @@ mybatis:
 # logging
 logging:
   file: logs/${spring.application.name}.log
-  file.max-size: 100MB
   level:
     root: info
   pattern:
