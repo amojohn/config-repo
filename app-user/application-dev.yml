@@ -4,7 +4,7 @@ spring:
     type: org.apache.commons.dbcp2.BasicDataSource
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://172.18.9.214:3306/shersfy?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: user
+    username: '{cipher}1033b1da3eee0e66e254fd8560df4d81f2f69b8d75cce4befb3d756d0d4ec088'
     password: '{cipher}1033b1da3eee0e66e254fd8560df4d81f2f69b8d75cce4befb3d756d0d4ec088'
     
 #spring.mvc.static-path-pattern=/static/**
