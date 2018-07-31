@@ -1,3 +1,4 @@
+version: ${project.version}
 spring:
   datasource:
     name: mysql-datasource
