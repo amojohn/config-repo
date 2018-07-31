@@ -7,11 +7,6 @@ spring:
     username: '{cipher}6d7a6184efc2a28a9c7e7b31ca462a8099b3a637607fd68262cb44dc99388f69'
     password: '{cipher}1033b1da3eee0e66e254fd8560df4d81f2f69b8d75cce4befb3d756d0d4ec088'
     
-#spring.mvc.static-path-pattern=/static/**
-# mybatis
-mybatis:
-  mapper-locations: classpath:mapping/*.xml
-  type-aliases-package: org.shersfy.user.model
 # logging
 logging:
   file: logs/${spring.application.name}.log
