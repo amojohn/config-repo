@@ -4,6 +4,7 @@ spring:
     name: mysql-datasource
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
+      register-mbeans: true
       pool-name: hikari-pool
       driver-class-name: com.mysql.jdbc.Driver
 #      jdbc-url: jdbc:mysql://127.0.0.1:3306/shersfy?useUnicode=true&characterEncoding=utf8&useSSL=false
