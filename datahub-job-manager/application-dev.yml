@@ -2,6 +2,9 @@ version: 1.0.0
 jobCodePrefix: job
 jobSubThreadSize: 500
 dispatchJobTimeoutSeconds: 60
+i18n:
+  file-encoding: 
+  locations: classpath:i18n/*.properties
 spring:
   datasource:
     name: mysql-datasource
