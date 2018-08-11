@@ -3,7 +3,7 @@ jobCodePrefix: job
 jobSubThreadSize: 500
 dispatchJobTimeoutSeconds: 60
 i18n:
-  file-encoding: 
+  fileEncoding: 
   locations: classpath:i18n/*.properties
 spring:
   datasource:
