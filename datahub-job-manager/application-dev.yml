@@ -46,12 +46,14 @@ spring:
 feign: 
   hystrix:
     enabled: true
-  client:
-    config:
-      default:
-        connectTimeout: 5000
-        readTimeout: 5000
-        loggerLevel: basic
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          strategy: thread
+          thread:
+            timeoutInMilliseconds: 5000
 # management
 management:
   endpoints:
