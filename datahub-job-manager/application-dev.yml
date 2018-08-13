@@ -54,6 +54,8 @@ hystrix:
           strategy: THREAD
           thread:
             timeoutInMilliseconds: 5000
+        timeout:
+          enabled: false
 # management
 management:
   endpoints:
