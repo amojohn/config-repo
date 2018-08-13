@@ -48,8 +48,8 @@ feign:
     enabled: true
 # 配置没生效
 ribbon:
-    readTimeout: 5000
-    connectTimeout: 5000
+    ReadTimeout: 5000
+    ConnectTimeout: 5000
 hystrix:
   command:
     default:
