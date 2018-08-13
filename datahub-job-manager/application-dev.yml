@@ -2,10 +2,6 @@ version: 1.0.0
 server:
   port: 8081
 spring:
-  application:
-    name: datahub-job-manager
-  main:
-    banner-mode: 'off'
   datasource:
     name: mysql-datasource
     type: com.zaxxer.hikari.HikariDataSource
