@@ -80,4 +80,4 @@ logging:
     root: info
   pattern:
     dateformat: yyyy-MM-dd HH:mm:ss.SSS
-level: '%5p'
+    level: '%5p'
