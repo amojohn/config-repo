@@ -21,7 +21,7 @@ job:
 # hystrix 必须加否则无效(默认false)
 feign: 
   hystrix:
-    enabled: true
+    enabled: false
 hystrix:
     command:
         datahub-db-executor:
