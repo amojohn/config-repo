@@ -1,4 +1,6 @@
 version: 1.0.0
+server:
+  port: 8081
 spring:
   datasource:
     name: mysql-datasource
