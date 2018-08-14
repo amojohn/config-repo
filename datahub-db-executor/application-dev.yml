@@ -22,6 +22,17 @@ job:
 feign: 
   hystrix:
     enabled: true
+hystrix:
+    command:
+        default:
+            execution:
+                isolation:
+                    strategy: THREAD
+                    thread:
+                        interruptOnTimeout: true
+                        timeoutInMilliseconds: 5000
+                timeout:
+                    enabled: true
 # management
 management:
   endpoints:
