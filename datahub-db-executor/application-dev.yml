@@ -24,7 +24,7 @@ feign:
     enabled: true
 hystrix:
     command:
-        default:
+        datahub-db-executor:
             execution:
                 isolation:
                     strategy: THREAD
@@ -33,6 +33,12 @@ hystrix:
                         timeoutInMilliseconds: 5000
                 timeout:
                     enabled: true
+datahub-db-executor:
+  ribbon:
+    ConnectTimeout: 5000
+    ReadTimeout: 5000
+    MaxTotalHttpConnections: 500
+    MaxConnectionsPerHost: 100
 # management
 management:
   endpoints:
